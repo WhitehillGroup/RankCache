@@ -65,6 +65,7 @@ module.FetchPlayerInfo = function(self, player, groupId)
     --// If the request failed, return a default value but do not store to the cache, so subsequent requests will attempt to fetch new data
     if (not isSuccess) then
         warn("[RankCache] Failed to fetch group (ID: " .. groupId .. ") data for " .. player.Name .. " (" .. player.UserId .. ")");
+
         return {
             Rank = 0;
             Role = "Guest";
@@ -78,6 +79,7 @@ module.FetchPlayerInfo = function(self, player, groupId)
 		if group.Id == groupId then
 			playerRank = group.Rank;
 			playerRole = group.Role;
+
 			break;
 		end
 	end
