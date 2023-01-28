@@ -13,7 +13,7 @@ JSM RankCache is a library designed to make it easier to obtain up-to-date group
 ## Installation methods
 
 ### Method 1 (recommended): Roblox Model
-1. Take the [Roblox Model](https://google.com)
+1. Take the [Roblox Model](https://www.roblox.com/library/12293493907/RankCache)
 2. Drag into your game via the Toolbox
 3. Parent the module to a place it can be accessed by both the client and server (ideally `ReplicatedStorage`)
 
