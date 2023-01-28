@@ -3,10 +3,8 @@
 JSM RankCache is a library designed to make it easier to obtain up-to-date group ranking information across all of your in-game scripts.
 
 **Why use this over :GetRankInGroup/:GetRoleInGroup?**
-The data returned by these functions are cached by Roblox, meaning data won't always be up-to-date when fetching from your scripts.
-If your game relies heavily on group ranks (i.e. group ranks correspond to in-game jobs), you'll want the most up-to-date information to ensure players have the best experience.
-The latest data can be fetched using GroupService, but this can result in a lot of API requests; which is where this module comes in.
-This RankCache library handles caching of these requests so that you can control exactly when rank data is refreshed and new data is fetched, whilst keeping API requests to a minimum.
+- This library ensures that you get up-to-date rank information whilst keeping API requests to a minimum.
+- It provides full control over when rank data is refreshed.
 
 ⚠️ Knowledge of Roblox scripting is required to use this library.
 
