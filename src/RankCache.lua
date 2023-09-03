@@ -1,5 +1,5 @@
 --[[
-    JSM Rank Cache Module
+    Whitehill Rank Cache Module
     Author: TheCakeChicken
 
     This module can be required from both the client and the server.
