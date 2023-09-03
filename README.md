@@ -1,6 +1,6 @@
-# JSM RankCache
+# Whitehill RankCache
 
-JSM RankCache is a library designed to make it easier to obtain up-to-date group ranking information across all of your in-game scripts.
+Whitehill RankCache is a library designed to make it easier to obtain up-to-date group ranking information across all of your in-game scripts.
 
 **Why use this over :GetRankInGroup/:GetRoleInGroup?**
 - This library ensures that you get up-to-date rank information whilst keeping API requests to a minimum.
@@ -13,12 +13,12 @@ JSM RankCache is a library designed to make it easier to obtain up-to-date group
 ## Installation methods
 
 ### Method 1 (recommended): Roblox Model
-1. Take the [Roblox Model](https://www.roblox.com/library/12293493907/RankCache)
+1. Take the [Roblox Model](https://www.roblox.com/library/14675990793/RankCache-Library)
 2. Drag into your game via the Toolbox
 3. Parent the module to a place it can be accessed by both the client and server (ideally `ReplicatedStorage`)
 
 ### Method 2: GitHub Releases
-1. Download the latest rbxm release from [the GitHub releases](https://github.com/TheCakeChicken/RankCache/releases)
+1. Download the latest rbxm release from [the GitHub releases](https://github.com/WhitehillGroup/RankCache/releases)
 2. Drag the downloaded file into studio
 3. Parent the module to a place it can be accessed by both the client and server (ideally `ReplicatedStorage`)
 
@@ -44,4 +44,4 @@ local player2Rank = rankCache:GetPlayerRank(game.Players.Player2)
 local player2Role = rankCache:GetPlayerRole(game.Players.Player2)
 ```
 
-More examples are available in the [examples](https://google.com) folder.
+More examples are available in the [examples](https://github.com/WhitehillGroup/RankCache/tree/main/examples) folder.
